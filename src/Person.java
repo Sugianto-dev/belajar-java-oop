@@ -31,8 +31,8 @@ class Person { // Class, Public dihapus dulu dan akan dibahas dimateri lain
     * this artinya dari objek saat ini
     * */
     Person(String name, String address) {
-        this.name = name;
-        this.address = address;
+        this.name = name; // this mengatasi variable shadowing
+        this.address = address; // this mengatasi variable shadowing
     }
 
     Person(String paramName) { // Method Overloading
@@ -46,6 +46,6 @@ class Person { // Class, Public dihapus dulu dan akan dibahas dimateri lain
 
     // Method
     void sayHello(String name){
-        System.out.println("Hello " + name + ", My Name is " + this.name);
+        System.out.println("Hello " + name + ", My Name is " + this.name); // this mengatasi variable shadowing
     }
 }

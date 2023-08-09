@@ -8,7 +8,11 @@ public class ProductApp {
         System.out.println(product.price);
 
         // MATERI TO STRING
-        System.out.println(product);
+        System.out.println(product); // sama dengan System.out.println(product.toString)
+        /*
+        * Notes!
+        * > Makanya ketika toString() nya di override hasilnya bisa beda
+        * */
 
         // MATERI EQUALS
         Product product2 = new Product("Mac Book Pro", 30000000);
