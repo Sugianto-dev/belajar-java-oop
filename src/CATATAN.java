@@ -496,7 +496,7 @@ public class CATATAN {
     *
     *                             > dengan static keyword, kita bisa membuat field, method atau class bisa diakses langsung tanpa melalui
     *                               object nya
-    *                             > Perlu diingat, static hanya bisa diakses static lainnya
+    *                             > Perlu diingat, static hanya bisa mengakses static lainnya
     *                             > Static dapat digunakan di :
     *                               > Field, atau disebut class variable, artinya field tersebut bisa diakses langsung tanpa membuat
     *                                 object terlebih dahulu
